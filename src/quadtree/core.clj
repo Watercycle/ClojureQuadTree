@@ -1,20 +1,36 @@
 (ns quadtree.core
     (:require [quil.core :as q]))
 
+(def screen-w 720)
+(def screen-h 480)
+
+(def max-tree-depth 8)
+(def active-nodes (atom 0))
+(def active-objects (atom 0))
+
 (defn setup []
-  (q/smooth)                          ;; Turn on anti-aliasing
-  (q/frame-rate 60)                    ;; Set framerate to 1 FPS
-  (q/background 200))                 ;; Set the background colour to
-                                      ;; a nice shade of grey.
+  (q/smooth) ;antialiasing
+  (q/frame-rate 60)
+
+  (q/stroke-weight 3)
+  (q/stroke 0 0 125 )
+
+  (let [x (q/random (q/width))]
+    (q/line x 0 x (q/height)))
+
+  (q/text-align :right)
+  (q/fill 255)
+  (q/text-size 25))
+
 (defn draw []
-  (q/stroke-weight 3)       ;; Set the stroke thickness randomly
-  (q/stroke 0 (q/random 255) (q/random 255) )               ;; Set the fill colour to a random grey
 
-  (let [x (q/random (q/width))]     ;; Set the y coord randomly within the sketch
-    (q/line x 0 x (q/height))))         ;; Draw a circle at x y with the correct diameter
+  (q/background 0)
+  (q/text (str "max depth: " max-tree-depth) 200 22)
+  (q/text (str "active nodes: " @active-nodes) 200 46)
+  (q/text (str "total objects: " @active-objects) 200 70))
 
-(q/defsketch example                  ;; Define a new sketch named example
-  :title "Oh so many grey circles"    ;; Set the title of the sketch
-  :setup setup                        ;; Specify the setup fn
-  :draw draw                          ;; Specify the draw fn
-  :size [720 480])                    ;; You struggle to beat the golden ratio
+(q/defsketch example
+  :title "Quadtree"
+  :setup setup
+  :draw draw
+  :size [screen-w screen-h])
