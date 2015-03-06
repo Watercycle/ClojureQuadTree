@@ -1,6 +1,5 @@
 (ns quadtree.core-test
   (:use [clojure.test] :reload)
-  (:import [quadtree.tree rect])
   (:require [quadtree.core :refer :all]
             [quadtree.tree :as qt]))
 
@@ -14,9 +13,9 @@
 (def test-region [50 50 250 250])
 ;(def base-tree (qt/build-quadtree test-region test-objs))
 
-
-(binding [clojure.pprint/*print-right-margin* 200]
-  (clojure.pprint/pprint (qt/build-quadtree test-region test-objs)))
+(comment
+  (binding [clojure.pprint/*print-right-margin* 200]
+    (clojure.pprint/pprint (qt/build-quadtree test-region test-objs))))
 
 (deftest quad-get-index
   (are [a b] (= a b)
@@ -40,16 +39,19 @@
              (qt/center [0 0 25 25]) [25/2 25/2]))
 
 (deftest quad-build
-  (let [base-objs [[60 60 5 5] [70 70 5 5]
-                   [20 20 5 5] [130 175 5 5]
-                   [176 130 5 5] [173 400 5 5]]
+  (let [base-objs [[60 60 5 5]                              ;quad 2
+                   [70 70 5 5]                              ;quad 2
+                   [20 20 5 5]                              ;quad 2
+                   [130 175 5 5]                            ;quad 3
+                   [176 130 5 5]                            ;quad 1
+                   [173 400 5 5]]                           ;quad none
         base-region [50 50 250 250]
         indexed-objs (group-by #(qt/get-index base-region %) base-objs)]
     (are [a b] (= a b)
                1 1
-               (count indexed-objs) 5
+               (count indexed-objs) 4
                (count (mapcat concat (vals indexed-objs))) 6
-               (count (:II indexed-objs)) 2
+               (count (:II indexed-objs)) 3
                )))
 
 (dissoc (group-by #(qt/get-index test-region %) test-objs) :NONE)

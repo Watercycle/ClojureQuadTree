@@ -2,13 +2,86 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed8d5c6e-8d14-4a8c-9864-383a1c784425" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\.name" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\copyright\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\encodings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\inspectionProfiles\Project_Default.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\inspectionProfiles\profiles_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__args4j_2_0_16.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__bouncycastle_bcmail_jdk14_138.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__bouncycastle_bcprov_jdk14_138.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__clj_time_0_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__clojure_complete_0_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__colorize_0_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__com_cemerick_piggieback_0_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__com_google_code_findbugs_jsr305_1_3_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__com_google_guava_guava_14_0_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__com_google_javascript_closure_compiler_v20130603.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__com_google_protobuf_protobuf_java_2_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__com_keminglabs_cljx_0_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__com_lowagie_itext_2_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__commons_codec_1_9.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__dynapath_0_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__gui_diff_0_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__joda_time_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__midje_1_6_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__net_cgrand_parsley_0_9_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__net_cgrand_regex_1_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__ordered_1_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_bouncycastle_bcmail_jdk14_1_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_bouncycastle_bcprov_jdk14_1_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_bouncycastle_bctsp_jdk14_1_38.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojars_trptcolin_sjacket_0_1_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojars_trptcolin_sjacket_0_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_clojure_1_5_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_clojure_1_6_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_clojure_1_7_0_alpha5.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_clojurescript_0_0_2080.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_core_match_0_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_core_unify_0_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_data_json_0_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_google_closure_library_0_0_20130212_95c19e7f0f5f.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_google_closure_library_third_party_0_0_20130212_95c19e7f0f5f.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_math_combinatorics_0_0_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_tools_macro_0_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_tools_namespace_0_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_tools_nrepl_0_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_clojure_tools_reader_0_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_json_json_20090211.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__org_mozilla_rhino_1_7R4.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__quil_2_2_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__quil_gluegen_rt_fat_2_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__quil_jogl_all_fat_2_1_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__quil_processing_core_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__quil_processing_dxf_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__quil_processing_js_1_4_8_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__quil_processing_pdf_2_2_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__slingshot_0_10_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__swiss_arrows_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__utilize_0_2_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\libraries\Leiningen__watchtower_0_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\replstate.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\scopes\scope_settings.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\vcs.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\.idea\workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\main\resources\berlin-1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\main\resources\eames.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\main\resources\ystone08.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\quadtree\references\bird.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\quadtree\references\brick-tower.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\quadtree\references\cubic-grid.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\quadtree\references\lights-2.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\quadtree\references\move-eye.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\quadtree\references\perspective.clj" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Water_000\Documents\GitHub\ClojureQuadTree\src\quadtree\references\zoom.clj" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/quadtree/core.clj" afterPath="$PROJECT_DIR$/src/quadtree/core.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/quadtree/core_test.clj" afterPath="$PROJECT_DIR$/test/quadtree/core_test.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/quadtree/tree.clj" afterPath="$PROJECT_DIR$/src/quadtree/tree.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="quadtree.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -20,11 +93,46 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="Commander">
+    <leftPanel />
+    <rightPanel />
+    <splitter proportion="0.5" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
+  </component>
+  <component name="DockManager">
+    <window id="1">
+      <content type="file-editors">
+        <state>
+          <leaf>
+            <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="true">
+              <entry file="file://$PROJECT_DIR$/test/quadtree/core_test.clj">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state vertical-scroll-proportion="0.44805196" vertical-offset="45" max-vertical-offset="1224">
+                    <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+            <file leaf-file-name="tree.clj" pinned="false" current-in-tab="false">
+              <entry file="file://$PROJECT_DIR$/src/quadtree/tree.clj">
+                <provider selected="true" editor-type-id="text-editor">
+                  <state vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1615">
+                    <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+                    <folding />
+                  </state>
+                </provider>
+              </entry>
+            </file>
+          </leaf>
+        </state>
+      </content>
+    </window>
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
@@ -35,28 +143,8 @@
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/quadtree/core.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.80269814" vertical-offset="0" max-vertical-offset="850">
-              <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="core_test.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/quadtree/core_test.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1190">
-              <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/project.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7259787" vertical-offset="0" max-vertical-offset="1360">
+              <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -106,8 +194,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -136,7 +222,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -159,33 +245,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="quadtree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="references" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="quadtree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ClojureQuadTree" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -421,16 +487,16 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31683168" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33663365" sideWeight="0.5" order="13" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33553356" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32972974" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -488,7 +554,9 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -496,6 +564,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/quadtree/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
@@ -516,7 +591,29 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/quadtree/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="100">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/quadtree/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="714" max-vertical-offset="1190">
+          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/project.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -540,7 +637,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -564,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -595,7 +690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -790,22 +884,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/quadtree/references/move-eye.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/quadtree/references/perspective.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.572695" vertical-offset="0" max-vertical-offset="748">
-          <caret line="19" column="14" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/quil/quil/2.2.5/quil-2.2.5.jar!/quil/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33275864" vertical-offset="8698" max-vertical-offset="81311">
@@ -822,32 +900,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+        <state vertical-scroll-proportion="0.19701986" vertical-offset="0" max-vertical-offset="604">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test/quadtree/core_test.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="444" max-vertical-offset="1190">
-          <caret line="42" column="42" selection-start-line="42" selection-start-column="42" selection-end-line="42" selection-end-column="42" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quadtree/tree.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5768398" vertical-offset="589" max-vertical-offset="1615">
-          <caret line="66" column="21" selection-start-line="66" selection-start-column="21" selection-end-line="66" selection-end-column="21" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="691" max-vertical-offset="1615">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/quadtree/core.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80269814" vertical-offset="0" max-vertical-offset="850">
-          <caret line="28" column="28" selection-start-line="28" selection-start-column="28" selection-end-line="28" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.7259787" vertical-offset="0" max-vertical-offset="1360">
+          <caret line="24" column="0" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/quadtree/core_test.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.44805196" vertical-offset="45" max-vertical-offset="1224">
+          <caret line="27" column="61" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
           <folding />
         </state>
       </provider>
