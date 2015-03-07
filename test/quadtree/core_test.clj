@@ -30,8 +30,7 @@
              (qt/get-index [50 50 250 250] [100 175 5 5]) :III
              (qt/get-index [50 50 250 250] [170 170 10 10]) :NONE
              (qt/get-index [50 50 250 250] [150 170 10 10]) :NONE
-             (qt/get-index [50 50 250 250] [173 400 10 10]) :NONE
-             ))
+             (qt/get-index [50 50 250 250] [173 400 10 10]) :NONE))
 
 (deftest quad-center
   (are [a b] (= a b)
@@ -51,16 +50,8 @@
                1 1
                (count indexed-objs) 4
                (count (mapcat concat (vals indexed-objs))) 6
-               (count (:II indexed-objs)) 3
-               )))
+               (count (:II indexed-objs)) 3)))
 
 (dissoc (group-by #(qt/get-index test-region %) test-objs) :NONE)
 
-(def others [:a :b])
-(def objects {:a [1 2 3] :b [2 3 4]})
-(map #(% objects) others)
-{:a (+ 5 2)}
 (run-tests 'quadtree.core-test)
-
-(defn select-values [map ks]
-  (remove nil? (reduce #(conj %1 (map %2)) [] ks)))

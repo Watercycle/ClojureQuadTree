@@ -7,10 +7,15 @@
 (declare build-quadtree)
 (defrecord quad [lvl rect objs nodes])
 
-(defn- center [[x y w h]]
+(defn- center
+  "returns the center of a rectangle as [x y]."
+  [[x y w h]]
   [(+ x (/ w 2)) (+ y (/ h 2))])
 
-(defn- split [[x y w h]]
+(defn- split
+  "returns equal sub-rectangles of the parent rectangle as
+   a hash map of their respective quadrants."
+  [[x y w h]]
   (let [hw (/ w 2) hh (/ h 2)
         cx (+ x hw) cy (+ y hh)]
     {:I   [cx y hw hh]
@@ -18,8 +23,11 @@
      :III [x cy hw hh]
      :IV  [cx cy hw hh]}))
 
-;determine which quad the AABB belongs to
-(defn- get-index [region [x y w h]]
+(defn- get-index
+  "returns which quadrant a rectangle would fall into if the
+   rectangular region provided was equally split up (or :NONE
+   if the object is sitting on top of a quadrant line)."
+  [region [x y w h]]
   (let [[cx cy] (center region)
         in-top? (<= (+ y h) cy)
         in-bot? (>= y cy)
@@ -36,54 +44,51 @@
                 :else :NONE)
       :else :NONE)))
 
-(defn- group-zones [region coll] (group-by #(get-index region %) coll))
-
-(defn- draw-out-rect [[x y w h]]
-  (let [bt  (+ y h)
+(defn- draw-out-rect
+  "draws an outlined rectangle with the Quil graphics API."
+  [[x y w h]]
+  (let [bt (+ y h)
         rt (+ x w)]
     (q/line x y x bt)
     (q/line x bt rt bt)
     (q/line rt bt rt y)
     (q/line rt y x y)))
 
-(defn draw-quadtree [tree]
+(defn draw-quadtree
+  "draws all active subnodes in the provided quadtree using the Quil graphics API."
+  [tree]
   (do
     (dorun (map #(if-not (nil? %) (draw-quadtree %)) (:nodes tree)))
     (draw-out-rect (:rect tree))))
 
-(defn- insert-all [region objs level]
+(defn- insert-all
+  "recursively constructs the quadtree by deciding what quadrant a
+  set of objects belongs to."
+  [region objs level]
   (let [div (split region)
         lvl (inc level)]
-    (map #(build-quadtree (% div) (% objs) lvl) [:I :II :III :IV])))
+    (do
+      (println "running on thread " (Thread/currentThread))
+      (if (= level 1)
+        (pmap #(build-quadtree (% div) (% objs) lvl) [:I :II :III :IV])
+        (map #(build-quadtree (% div) (% objs) lvl) [:I :II :III :IV])))))
 
 (defn build-quadtree
+  "returns a fully constructed quadtree based on a given region and set of objects.
+  objects that do not clearly fit in a quadrant will remain on their current level
+  and while others are passed down to another quadtree node."
   ([region objs lvl]
-   (do
-     (cond (and (> (count objs) max-obj) (< lvl max-lvl))
-           (let [indexed-objs (group-zones region objs)
-                 base-objs (flatten (:NONE indexed-objs))
-                 nodes (insert-all region (dissoc indexed-objs :NONE) lvl)]
-             (quad. lvl region base-objs nodes))
-           (> (count objs) 0) (quad. lvl region objs nil)
-           :is-empty nil)))
+   (cond (and (> (count objs) max-obj) (< lvl max-lvl))
+         (let [indexed-objs (group-by #(get-index region %) objs)
+               base-objs (:NONE indexed-objs)
+               nodes (insert-all region (dissoc indexed-objs :NONE) lvl)]
+           (quad. lvl region base-objs nodes))
+         (> (count objs) 0) (quad. lvl region objs nil)
+         :is-empty nil))
   ([region objs] (build-quadtree region objs 0)))
 
-(defn retrieve [rect]
+(defn retrieve
+  "returns a vector of all rectangular spaces that may
+  make contact with the provided rectangle."
+  [tree [x y w h]]
   )
-
-;EXTRA
-(comment
-
-;rectangle with 0,0 at the top-left corner
-(defrecord rect [x y w h])
-
-(defrecord vec2 [x y])
-(defrecord vec3 [x y z])
-
-;is region 1 fully in the original region?
-  (in? [{:keys [x y w h]} {:keys [x1 x2 w1 h2]}]
-       (and (> (- x1 w1) x)
-            (< (+ x1 w1 (+ x w)))
-            (> (- y1 h1) 0)
-            (< (+ y1 h1) (+ y h))))
-)
