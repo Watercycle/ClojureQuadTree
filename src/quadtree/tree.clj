@@ -1,8 +1,8 @@
 (ns quadtree.tree
   (:require [quil.core :as q]))
 
-(def max-obj 5)
-(def max-lvl 6)
+(def max-obj 4)
+(def max-lvl 10)
 
 (declare build-quadtree)
 (defrecord quad [lvl rect objs nodes])
@@ -67,11 +67,9 @@
   [region objs level]
   (let [div (split region)
         lvl (inc level)]
-    (do
-      (println "running on thread " (Thread/currentThread))
-      (if (= level 1)
-        (pmap #(build-quadtree (% div) (% objs) lvl) [:I :II :III :IV])
-        (map #(build-quadtree (% div) (% objs) lvl) [:I :II :III :IV])))))
+    (if (= level 1)
+      (pmap #(build-quadtree (% div) (% objs) lvl) [:I :II :III :IV])
+      (map #(build-quadtree (% div) (% objs) lvl) [:I :II :III :IV]))))
 
 (defn build-quadtree
   "returns a fully constructed quadtree based on a given region and set of objects.
